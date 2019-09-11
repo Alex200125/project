@@ -39,8 +39,9 @@ console.log("2" === 2);
 let isChecked = false,
     isClose = false;
 
-console.log(isChecked || !isClose);
+console.log(isChecked || !isClose); //comment
 
+console.log('Hello');
 
 
 
