@@ -51,6 +51,7 @@ let appData = {
     },
     optionalExpenses: {
 
+
     },
     income: [
         {}
