@@ -1,21 +1,21 @@
-console.log(4/0);
-console.log('string' * 5);
+// console.log(4/0);
+// console.log('string' * 5);
 
-let sumthing;
-console.log(sumthing);
+// let sumthing;
+// console.log(sumthing);
 
-let object = {
-    name: 'Josh',
-    eag: 25,
-    pol: 'm'
-};
+// let object = {
+//     name: 'Josh',
+//     eag: 25,
+//     pol: 'm'
+// };
 
-console.log(object['eag']);
+// console.log(object['eag']);
 
-let arr = ['png', 'jpeg', 'jpg', 'gif'];
-console.log(arr[2]);
+// let arr = ['png', 'jpeg', 'jpg', 'gif'];
+// console.log(arr[2]);
 
-document.write('何');
+// document.write('何');
 
 // alert('Hello World');
 
@@ -27,21 +27,44 @@ document.write('何');
 
 //  console.log(typeof(answer ));
 
-let incr = 8,
-    decr = 5;
+// let incr = 8,
+//     decr = 5;
 
     
-console.log(incr++, decr--);
+// console.log(incr++, decr--);
 
-console.log(5%2);
-console.log("2" === 2);
+// console.log(5%2);
+// console.log("2" === 2);
 
-let isChecked = false,
-    isClose = false;
+// let isChecked = false,
+//     isClose = false;
 
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
 
+let money = prompt("Ваш бюджет на месяц?");
+    time = "2001.09.12";
 
+let appData = {
+    moneyData: money,
+    timeData: time,
+    expenses: {
+    },
+    optionalExpenses: {
 
+    },
+    income: [
+        {}
+    ],
+    savings: false
+    
+};
 
+let a1 = prompt("Введите обязательную статью расходов в этом месяце");
+    a2 = prompt("Во сколько обойдётся?");
+    a3 = prompt("Введите обязательную статью расходов в этом месяце");
+    a4 = prompt("Во сколько обойдётся?");
 
+appData.expenses.a1 = a2;
+appData.expenses.a3 = a4;
+
+alert(appData.moneyData / 30);
